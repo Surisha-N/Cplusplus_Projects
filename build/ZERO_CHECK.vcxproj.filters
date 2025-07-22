@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nadas\Downloads\C++\Projects\Cplusplus_Projects\build\CMakeFiles\57f8064600830698c5e66135922c5dd4\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{88425151-CE09-393A-9DB9-7B1E3F7F6788}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

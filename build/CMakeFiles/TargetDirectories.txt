@@ -1,0 +1,2 @@
+C:/Users/nadas/Downloads/C++/Projects/Cplusplus_Projects/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/nadas/Downloads/C++/Projects/Cplusplus_Projects/build/CMakeFiles/ZERO_CHECK.dir
