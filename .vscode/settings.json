@@ -1,5 +1,7 @@
 {
     "files.associations": {
+        "vector": "cpp",
+        "algorithm": "cpp",
         "atomic": "cpp",
         "bit": "cpp",
         "cctype": "cpp",
@@ -27,6 +29,8 @@
         "locale": "cpp",
         "memory": "cpp",
         "new": "cpp",
+        "numeric": "cpp",
+        "optional": "cpp",
         "ostream": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
@@ -36,7 +40,6 @@
         "type_traits": "cpp",
         "typeinfo": "cpp",
         "utility": "cpp",
-        "vector": "cpp",
         "xfacet": "cpp",
         "xiosbase": "cpp",
         "xlocale": "cpp",
