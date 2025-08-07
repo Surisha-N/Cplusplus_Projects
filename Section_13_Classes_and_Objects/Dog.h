@@ -2,43 +2,41 @@
 #define __DOG_H__
 
 #include <string>
+#include <iostream>
 
 using namespace std;
 
-class Dog 
-{
+class Dog {
 private:
     string name;
     int age;
 public:
-    string get_name() 
+    //1) Initialisation Constructor
+    Dog()
     {
-        return name;
+        name = "None";
+        age = 0;
     }
-    
-    void set_name(string name1)
+    //2) Overloaded Constructor
+    Dog (string name1, int age1)
     {
-        name = name1;
+        name=name1;
+        age=age1;
     }
-    
-    int get_age() 
+    //3) Copy Constructor
+    Dog (const Dog &source)
+    : Dog {source.name, source.age} //Delegating initialisation for copy constructor
     {
-        return age;
-    }
-    
-    void set_age(int age1) 
-    {
-        age = age1;
+        cout << "Copy Constructor" << endl;
     }
 
-        int get_human_years()
-    {
-        return age*7;
-    }
-    
-    string speak()
-    {
-        return "Woof";
-    }
+    string get_name() {return name; }
+    void set_name(string n) {name = n; }
+    int get_age() {return age; }
+    void set_age(int a) { age = a;}
+    int get_human_years() { return age * 7; }
+    string speak() { return "Woof";}
 };
+
+
 #endif 
